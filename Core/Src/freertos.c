@@ -131,6 +131,8 @@ void StartTask1(void *argument)
   {
 		uxHighWaterMark[0] = 128*4-uxTaskGetStackHighWaterMark(Task1Handle); 
     uxHighWaterMark[1] = 128*4-uxTaskGetStackHighWaterMark(Task2Handle); 
+    uxHighWaterMark[0] = 128*4-uxTaskGetStackHighWaterMark(Task1Handle); 
+    uxHighWaterMark[1] = 128*4-uxTaskGetStackHighWaterMark(Task2Handle); 
 		if(i==0)
 		{				
 			HAL_GPIO_WritePin(MCU_LED_GPIO_Port, MCU_LED_Pin, GPIO_PIN_RESET);		
