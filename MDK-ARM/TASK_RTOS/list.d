@@ -1,0 +1,12 @@
+.\task_rtos\list.o: ..\FreeRTOS\list.c
+.\task_rtos\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\task_rtos\list.o: ../FreeRTOS/include/FreeRTOS.h
+.\task_rtos\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\task_rtos\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\task_rtos\list.o: ../Core/Inc/FreeRTOSConfig.h
+.\task_rtos\list.o: ../FreeRTOS/include/projdefs.h
+.\task_rtos\list.o: ../FreeRTOS/include/portable.h
+.\task_rtos\list.o: ../FreeRTOS/include/deprecated_definitions.h
+.\task_rtos\list.o: ../FreeRTOS/portable/portmacro.h
+.\task_rtos\list.o: ../FreeRTOS/include/mpu_wrappers.h
+.\task_rtos\list.o: ../FreeRTOS/include/list.h
