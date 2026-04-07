@@ -1,1 +1,1 @@
-# 这是一个空的RTOS demo。
+# 这是一个RTOS demo。
